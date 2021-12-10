@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'CookieRun';
+  src: url("../CookieRun-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, figure, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.prd {
+  background: #fff5d9;
+  padding: 100px;
+}
+
+.prd-1 {
+  text-align: center;
+}
+
+.prd-1 h2 {
+  color: #f52334;
+  border-bottom: 3px solid #f52334;
+  display: inline;
+}
+
+.prd-1 p {
+  border: 1px solid #000;
+  margin: 4% auto;
+}
+
+.prd-1 p a {
+  border: 1px solid #000;
+  padding: 0% 1%;
+  margin: 0 1%;
+  color: #000;
+}
+
+.prd-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.left-1 a span {
+  width: 30px;
+  height: 2px;
+  background-color: #f52334;
+  position: absolute;
+  top: 48%;
+  left: 2%;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.left-1 a span:nth-of-type(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.left-1 a span:nth-of-type(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.left-2 a span {
+  width: 30px;
+  height: 2px;
+  background-color: #f52334;
+  position: absolute;
+  top: 48%;
+  left: 4%;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.left-2 a span:nth-of-type(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.left-2 a span:nth-of-type(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.center {
+  border: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.center > div {
+  border: 1px solid #000;
+  width: 24%;
+  margin: 0 1%;
+}
+
+.img p img {
+  width: 100%;
+}
+
+.prd_name {
+  border: 1px solid #000;
+  font-size: 17px;
+  display: inline-block;
+  padding: 3%;
+  margin: 5%;
+}
+
+.prd_detail > p {
+  font-size: 14px;
+}
+
+.right {
+  border: 1px solid #000;
+}
+
+.right-1 a span {
+  width: 30px;
+  height: 2px;
+  background-color: #f52334;
+  position: absolute;
+  top: 48%;
+  right: 2%;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.right-1 a span:nth-of-type(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.right-1 a span:nth-of-type(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.right-2 a span {
+  width: 30px;
+  height: 2px;
+  background-color: #f52334;
+  position: absolute;
+  top: 48%;
+  right: 4%;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.right-2 a span:nth-of-type(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.right-2 a span:nth-of-type(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.prd-4 {
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prd-4 p {
+  border: 3px solid #f52334;
+  border-radius: 24px;
+  width: 220px;
+  height: 55px;
+  margin: 0 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prd-4 p:nth-of-type(1) {
+  background: #fff5d9;
+}
+
+.prd-4 p:nth-of-type(1) > a {
+  color: #f52334;
+}
+
+.prd-4 p:nth-of-type(2) {
+  background: #f52334;
+}
+
+.prd-4 p:nth-of-type(2) > a {
+  color: #fff;
+}
+
+.prd-4 p:nth-of-type(1):hover {
+  background: #f52334;
+}
+
+.prd-4 p:nth-of-type(1):hover > a {
+  color: #fff5d9;
+}
+
+.prd-4 p:nth-of-type(2):hover {
+  background: #fff5d9;
+}
+
+.prd-4 p:nth-of-type(2):hover > a {
+  color: #f52334;
+}
+/*# sourceMappingURL=index_product.css.map */
